@@ -11,7 +11,7 @@ export default class User {
     userName: string
 
     @Column('varchar', { length: 13 }) 
-    contac: string
+    contact: string
 
     @Column('varchar', { length: 50 }) 
     email: string

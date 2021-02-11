@@ -9,8 +9,8 @@ export default {
             street: points.street,
             lat: points.lat,
             long: points.long,
-            //collect: points.collect,
-            //user: points.user
+            collect: points.collect,
+            user: points.user
         }
     }
 }

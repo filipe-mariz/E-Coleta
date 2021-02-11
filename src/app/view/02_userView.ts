@@ -5,10 +5,10 @@ export default {
         return {
             id: user.id,
             userName: user.userName,
-            contact: user.contac,
+            contact: user.contact,
             email: user.email,
-            //points: user.points,
-            //collect: user.collect
+            points: user.points,
+            collect: user.collect
         }
     }
 }
