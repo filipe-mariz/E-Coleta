@@ -44,7 +44,7 @@ export class collect1612991287398 implements MigrationInterface {
 
                 {
                     name: 'collectPoints',
-                    columnNames: ['user_id'],
+                    columnNames: ['point_id'],
                     referencedTableName: 'Points',
                     referencedColumnNames: ['id'],
                     onUpdate: 'CASCADE',
